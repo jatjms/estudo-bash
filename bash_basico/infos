@@ -1,7 +1,19 @@
 #!/usr/bin/env bash
 
+clear
+
+echo "Informação do computador"
+echo "--------------------------------------"
+
+echo -n "Usuario: "
 whoami
+
+echo -n "Hostname(Nome da Maquina): "
 hostname
+
+echo -n "Tempo de maquina ligada: "
 uptime -p
+
+echo -n "Versão do Kernel: "
 uname -rms
 
